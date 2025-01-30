@@ -1,3 +1,5 @@
+from excercises.excercise1 import exercicio1
+
 while True:
     try:
         print(
@@ -16,7 +18,7 @@ while True:
             while True:
                 match opc:
                     case 1:
-                        print("Ejercicio 1")
+                        exercicio1()
                         continuar = input("¿Desea continuar? (s/n): ")
                         if continuar.lower() != 's':
                             break
