@@ -1,3 +1,8 @@
+from excercises.excercise1 import exercicio1
+from excercises.excercise2 import exercicio2
+from excercises.excercise3 import exercicio3
+from excercises.excercise4 import excercise4
+
 while True:
     try:
         print(
@@ -16,22 +21,22 @@ while True:
             while True:
                 match opc:
                     case 1:
-                        print("Ejercicio 1")
+                        exercicio1()
                         continuar = input("¿Desea continuar? (s/n): ")
                         if continuar.lower() != 's':
                             break
                     case 2:
-                        print("Ejercicio 2")
+                        exercicio2()
                         continuar = input("¿Desea continuar? (s/n): ")
                         if continuar.lower() != 's':
                             break
                     case 3:
-                        print("Ejercicio 3")
+                        exercicio3()
                         continuar = input("¿Desea continuar? (s/n): ")
                         if continuar.lower() != 's':
                             break
                     case 4:
-                        print("Ejercicio 4")
+                        excercise4()
                         continuar = input("¿Desea continuar? (s/n): ")
                         if continuar.lower() != 's':
                             break
